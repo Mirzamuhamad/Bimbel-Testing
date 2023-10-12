@@ -30,6 +30,15 @@ $user = query("SELECT msolimpiade.* FROM msolimpiade"); ?>
 <p>jQuery - Set datetimepicker on textbox click</p>
 <?php foreach ($user as $isi) : ?>
     <input type="text" class="datetimepicker" /><br>
+    <div class="form-group">
+        <label for="ExamDateEnd">Exam Date End</label>
+        <div class="input-group date" data-target-input="nearest">
+            <input type="Text" id="ExamDateEnd" name="ExamDateEnd" required class="form-control datetimepicker" autocomplete="off">
+            <div class="input-group-append">
+                <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+            </div>
+        </div>
+    </div>
 <?php endforeach; ?>
 
 

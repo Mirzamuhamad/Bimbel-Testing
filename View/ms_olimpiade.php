@@ -222,7 +222,7 @@ if (isset($_POST["hapusOlimpiade"])) {
 
                                         <!-- modal edit data -->
                                         <div id="EditOlimpiade<?= $i ?>" class="modal fade" role="dialog">
-                                            <div class="modal-dialog modal-XL">
+                                            <div class="modal-dialog modal-xl">
                                                 <!-- konten modal-->
                                                 <div class="modal-content">
                                                     <div class="modal-header">
