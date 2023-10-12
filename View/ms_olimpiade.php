@@ -20,6 +20,8 @@ if (isset($_POST["saveOlimpiade"])) {
 
 if (isset($_POST["EditOlimpiade"])) {
 
+
+    
     if (EditOlimpiade($_POST) > 0) {
         echo "<script>
               // alert('Edit secess!');
